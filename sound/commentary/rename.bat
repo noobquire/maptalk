@@ -1,0 +1,1 @@
+FOR /f "delims=" %%F IN ('DIR /a-d /b *.mp3')  DO (RENAME "%%F" "bw_%%F")
